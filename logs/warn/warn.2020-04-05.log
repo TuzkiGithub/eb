@@ -1,0 +1,55 @@
+2020-04-05 22:19:39,710 - Skipping MapperFactoryBean with name 'roleMapper' and 'cn.kj.ebff.mapper.RoleMapper' mapperInterface. Bean already defined with the same name!
+2020-04-05 22:19:39,711 - Skipping MapperFactoryBean with name 'roleWithResourceMapper' and 'cn.kj.ebff.mapper.RoleWithResourceMapper' mapperInterface. Bean already defined with the same name!
+2020-04-05 22:19:39,712 - Skipping MapperFactoryBean with name 'userMapper' and 'cn.kj.ebff.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2020-04-05 22:19:39,712 - Skipping MapperFactoryBean with name 'userWithRoleMapper' and 'cn.kj.ebff.mapper.UserWithRoleMapper' mapperInterface. Bean already defined with the same name!
+2020-04-05 22:19:39,714 - No MyBatis mapper was found in '[cn.kj.ebff]' package. Please check your configuration.
+2020-04-05 22:22:56.092 [main] [31mWARN [0;39m [36morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'roleMapper' and 'cn.kj.ebff.mapper.RoleMapper' mapperInterface. Bean already defined with the same name![0;39m
+                
+2020-04-05 22:22:56.092 [main] [31mWARN [0;39m [36morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'roleWithResourceMapper' and 'cn.kj.ebff.mapper.RoleWithResourceMapper' mapperInterface. Bean already defined with the same name![0;39m
+                
+2020-04-05 22:22:56.092 [main] [31mWARN [0;39m [36morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'userMapper' and 'cn.kj.ebff.mapper.UserMapper' mapperInterface. Bean already defined with the same name![0;39m
+                
+2020-04-05 22:22:56.092 [main] [31mWARN [0;39m [36morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'userWithRoleMapper' and 'cn.kj.ebff.mapper.UserWithRoleMapper' mapperInterface. Bean already defined with the same name![0;39m
+                
+2020-04-05 22:22:56.092 [main] [31mWARN [0;39m [36morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mNo MyBatis mapper was found in '[cn.kj.ebff]' package. Please check your configuration.[0;39m
+                
+2020-04-05 22:33:22 [main] [31mWARN [0;39m [36morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'roleMapper' and 'cn.kj.ebff.mapper.RoleMapper' mapperInterface. Bean already defined with the same name![0;39m
+                
+2020-04-05 22:33:22 [main] [31mWARN [0;39m [36morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'roleWithResourceMapper' and 'cn.kj.ebff.mapper.RoleWithResourceMapper' mapperInterface. Bean already defined with the same name![0;39m
+                
+2020-04-05 22:33:22 [main] [31mWARN [0;39m [36morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'userMapper' and 'cn.kj.ebff.mapper.UserMapper' mapperInterface. Bean already defined with the same name![0;39m
+                
+2020-04-05 22:33:22 [main] [31mWARN [0;39m [36morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'userWithRoleMapper' and 'cn.kj.ebff.mapper.UserWithRoleMapper' mapperInterface. Bean already defined with the same name![0;39m
+                
+2020-04-05 22:33:22 [main] [31mWARN [0;39m [36morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mNo MyBatis mapper was found in '[cn.kj.ebff]' package. Please check your configuration.[0;39m
+                
+2020-04-05 22:40:07 [main] [31mWARN [0;39m [36morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'roleMapper' and 'cn.kj.ebff.mapper.RoleMapper' mapperInterface. Bean already defined with the same name![0;39m
+                
+2020-04-05 22:40:07 [main] [31mWARN [0;39m [36morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'roleWithResourceMapper' and 'cn.kj.ebff.mapper.RoleWithResourceMapper' mapperInterface. Bean already defined with the same name![0;39m
+                
+2020-04-05 22:40:07 [main] [31mWARN [0;39m [36morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'userMapper' and 'cn.kj.ebff.mapper.UserMapper' mapperInterface. Bean already defined with the same name![0;39m
+                
+2020-04-05 22:40:07 [main] [31mWARN [0;39m [36morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'userWithRoleMapper' and 'cn.kj.ebff.mapper.UserWithRoleMapper' mapperInterface. Bean already defined with the same name![0;39m
+                
+2020-04-05 22:40:07 [main] [31mWARN [0;39m [36morg.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mNo MyBatis mapper was found in '[cn.kj.ebff]' package. Please check your configuration.[0;39m
+                
+2020-04-05 22:44:57 [main] [31mWARN [0;39m [36mtk.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'roleMapper' and 'cn.kj.ebff.mapper.RoleMapper' mapperInterface. Bean already defined with the same name![0;39m
+                
+2020-04-05 22:44:57 [main] [31mWARN [0;39m [36mtk.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'roleWithResourceMapper' and 'cn.kj.ebff.mapper.RoleWithResourceMapper' mapperInterface. Bean already defined with the same name![0;39m
+                
+2020-04-05 22:44:57 [main] [31mWARN [0;39m [36mtk.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'userMapper' and 'cn.kj.ebff.mapper.UserMapper' mapperInterface. Bean already defined with the same name![0;39m
+                
+2020-04-05 22:44:57 [main] [31mWARN [0;39m [36mtk.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'userWithRoleMapper' and 'cn.kj.ebff.mapper.UserWithRoleMapper' mapperInterface. Bean already defined with the same name![0;39m
+                
+2020-04-05 22:44:57 [main] [31mWARN [0;39m [36mtk.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mNo MyBatis mapper was found in '[cn.kj.ebff]' package. Please check your configuration.[0;39m
+                
+2020-04-05 22:50:19 [main] [31mWARN [0;39m [36mtk.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'roleMapper' and 'cn.kj.ebff.mapper.RoleMapper' mapperInterface. Bean already defined with the same name![0;39m 
+2020-04-05 22:50:19 [main] [31mWARN [0;39m [36mtk.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'roleWithResourceMapper' and 'cn.kj.ebff.mapper.RoleWithResourceMapper' mapperInterface. Bean already defined with the same name![0;39m 
+2020-04-05 22:50:19 [main] [31mWARN [0;39m [36mtk.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'userMapper' and 'cn.kj.ebff.mapper.UserMapper' mapperInterface. Bean already defined with the same name![0;39m 
+2020-04-05 22:50:19 [main] [31mWARN [0;39m [36mtk.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'userWithRoleMapper' and 'cn.kj.ebff.mapper.UserWithRoleMapper' mapperInterface. Bean already defined with the same name![0;39m 
+2020-04-05 22:50:19 [main] [31mWARN [0;39m [36mtk.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mNo MyBatis mapper was found in '[cn.kj.ebff]' package. Please check your configuration.[0;39m 
+2020-04-05 22:52:11 [main] [31mWARN [0;39m [36mtk.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'roleMapper' and 'cn.kj.ebff.mapper.RoleMapper' mapperInterface. Bean already defined with the same name![0;39m 
+2020-04-05 22:52:11 [main] [31mWARN [0;39m [36mtk.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'roleWithResourceMapper' and 'cn.kj.ebff.mapper.RoleWithResourceMapper' mapperInterface. Bean already defined with the same name![0;39m 
+2020-04-05 22:52:11 [main] [31mWARN [0;39m [36mtk.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'userMapper' and 'cn.kj.ebff.mapper.UserMapper' mapperInterface. Bean already defined with the same name![0;39m 
+2020-04-05 22:52:11 [main] [31mWARN [0;39m [36mtk.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mSkipping MapperFactoryBean with name 'userWithRoleMapper' and 'cn.kj.ebff.mapper.UserWithRoleMapper' mapperInterface. Bean already defined with the same name![0;39m 
+2020-04-05 22:52:11 [main] [31mWARN [0;39m [36mtk.mybatis.spring.mapper.ClassPathMapperScanner[0;39m - [31mNo MyBatis mapper was found in '[cn.kj.ebff]' package. Please check your configuration.[0;39m 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.kj.ebff.mapper.RoleWithResourceMapper">
+
+    <resultMap id="resultMap" type="cn.kj.ebff.domain.RoleWithResource">
+        <id property="id" column="id" />
+        <result property="role_id" column="role_id" />
+        <result property="role_name" column="role_name" />
+        <result property="resource_id" column="resource_id" />
+        <result property="resource_name" column="resource_name" />
+        <result property="perms" column="perms" />
+
+
+    </resultMap>
+
+    <select id="findResourceByRole" parameterType="java.lang.String" resultMap="resultMap">
+        select rr.id as id,
+               r.id as role_id,
+               r.name as rolename,
+               res.id as resource_id,
+               res.name as resource_name,
+               res.perms
+        from role r, resource res, role_resource rr
+        where r.id = rr.role_id
+        and res.id = rr.resource_id
+        and r.name = #{role}
+    </select>
+
+</mapper>

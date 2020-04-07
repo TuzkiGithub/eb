@@ -1,0 +1,402 @@
+2020-04-05 22:19:38,461 - Starting EbffApplication on DESKTOP-9AJN4VM with PID 30636 (F:\IDEA\ebff\target\classes started by 25414 in F:\IDEA\ebff)
+2020-04-05 22:19:38,469 - No active profile set, falling back to default profiles: default
+2020-04-05 22:19:40,328 - Bean 'shiroConfig' of type [cn.kj.ebff.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$4757aa6c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:40,472 - Bean 'mybatis-tk.mybatis.mapper.autoconfigure.MybatisProperties' of type [tk.mybatis.mapper.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:40,479 - Bean 'tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration' of type [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$$EnhancerBySpringCGLIB$$62cda56f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:40,482 - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:40,496 - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:40,558 - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:40,570 - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:40,855 - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:40,868 - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:41,081 - Bean 'userMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:41,089 - Bean 'userMapper' of type [com.sun.proxy.$Proxy76] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:41,095 - Bean 'userServiceImpl' of type [cn.kj.ebff.service.Impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:41,101 - Bean 'userWithRoleMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:41,103 - Bean 'userWithRoleMapper' of type [com.sun.proxy.$Proxy77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:41,104 - Bean 'userWithRoleServiceImpl' of type [cn.kj.ebff.service.Impl.UserWithRoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:41,107 - Bean 'roleWithResourceMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:41,107 - Bean 'roleWithResourceMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:41,108 - Bean 'roleWithResourceServiceImpl' of type [cn.kj.ebff.service.Impl.RoleWithResourceServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:41,108 - Bean 'customRealm' of type [cn.kj.ebff.shiro.LoginRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:43,306 - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-05 22:19:43,683 - Tomcat initialized with port(s): 8888 (http)
+2020-04-05 22:19:43,694 - Initializing ProtocolHandler ["http-nio-8888"]
+2020-04-05 22:19:43,695 - Starting service [Tomcat]
+2020-04-05 22:19:43,696 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-05 22:19:44,045 - Initializing Spring embedded WebApplicationContext
+2020-04-05 22:19:44,046 - Root WebApplicationContext: initialization completed in 5365 ms
+2020-04-05 22:19:44,379 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 22:19:44,616 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-04-05 22:19:44,617 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-04-05 22:19:44,619 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-04-05 22:19:44,619 - Clear EntityHelper entityTableMap cache.
+2020-04-05 22:19:44,828 - Starting ProtocolHandler ["http-nio-8888"]
+2020-04-05 22:19:44,868 - Tomcat started on port(s): 8888 (http) with context path ''
+2020-04-05 22:19:44,875 - Started EbffApplication in 7.98 seconds (JVM running for 13.514)
+2020-04-05 22:20:57,262 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 22:20:57,263 - Initializing Servlet 'dispatcherServlet'
+2020-04-05 22:20:57,274 - Completed initialization in 11 ms
+2020-04-05 22:20:57,441 - username = Tuzki, password = 111111
+2020-04-05 22:20:57,590 - HikariPool-1 - Starting...
+2020-04-05 22:20:58,163 - HikariPool-1 - Start completed.
+2020-04-05 22:22:54.822 [main] [34mINFO [0;39m [36mcn.kj.ebff.EbffApplication[0;39m - [34mStarting EbffApplication on DESKTOP-9AJN4VM with PID 22004 (F:\IDEA\ebff\target\classes started by 25414 in F:\IDEA\ebff)[0;39m
+                
+2020-04-05 22:22:54.829 [main] [34mINFO [0;39m [36mcn.kj.ebff.EbffApplication[0;39m - [34mNo active profile set, falling back to default profiles: default[0;39m
+                
+2020-04-05 22:22:56.586 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'shiroConfig' of type [cn.kj.ebff.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$bd236072] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:56.707 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'mybatis-tk.mybatis.mapper.autoconfigure.MybatisProperties' of type [tk.mybatis.mapper.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:56.715 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration' of type [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$$EnhancerBySpringCGLIB$$d8995b75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:56.719 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:56.735 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:56.776 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:56.792 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:57.174 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:57.182 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:57.402 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:57.407 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userMapper' of type [com.sun.proxy.$Proxy76] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:57.417 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userServiceImpl' of type [cn.kj.ebff.service.Impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:57.422 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userWithRoleMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:57.424 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userWithRoleMapper' of type [com.sun.proxy.$Proxy77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:57.425 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userWithRoleServiceImpl' of type [cn.kj.ebff.service.Impl.UserWithRoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:57.429 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'roleWithResourceMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:57.430 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'roleWithResourceMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:57.430 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'roleWithResourceServiceImpl' of type [cn.kj.ebff.service.Impl.RoleWithResourceServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:57.431 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'customRealm' of type [cn.kj.ebff.shiro.LoginRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:22:59.749 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:23:00.124 [main] [34mINFO [0;39m [36mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m - [34mTomcat initialized with port(s): 8888 (http)[0;39m
+                
+2020-04-05 22:23:00.138 [main] [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol[0;39m - [34mInitializing ProtocolHandler ["http-nio-8888"][0;39m
+                
+2020-04-05 22:23:00.140 [main] [34mINFO [0;39m [36morg.apache.catalina.core.StandardService[0;39m - [34mStarting service [Tomcat][0;39m
+                
+2020-04-05 22:23:00.142 [main] [34mINFO [0;39m [36morg.apache.catalina.core.StandardEngine[0;39m - [34mStarting Servlet engine: [Apache Tomcat/9.0.33][0;39m
+                
+2020-04-05 22:23:00.466 [main] [34mINFO [0;39m [36mo.a.c.core.ContainerBase.[Tomcat].[localhost].[/][0;39m - [34mInitializing Spring embedded WebApplicationContext[0;39m
+                
+2020-04-05 22:23:00.466 [main] [34mINFO [0;39m [36morg.springframework.web.context.ContextLoader[0;39m - [34mRoot WebApplicationContext: initialization completed in 5434 ms[0;39m
+                
+2020-04-05 22:23:00.785 [main] [34mINFO [0;39m [36mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m - [34mInitializing ExecutorService 'applicationTaskExecutor'[0;39m
+                
+2020-04-05 22:23:01.022 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.[0;39m
+                
+2020-04-05 22:23:01.023 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.[0;39m
+                
+2020-04-05 22:23:01.024 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear tk.mybatis.mapper.version.VersionUtil CACHE cache.[0;39m
+                
+2020-04-05 22:23:01.024 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear EntityHelper entityTableMap cache.[0;39m
+                
+2020-04-05 22:23:01.205 [main] [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol[0;39m - [34mStarting ProtocolHandler ["http-nio-8888"][0;39m
+                
+2020-04-05 22:23:01.261 [main] [34mINFO [0;39m [36mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m - [34mTomcat started on port(s): 8888 (http) with context path ''[0;39m
+                
+2020-04-05 22:23:01.267 [main] [34mINFO [0;39m [36mcn.kj.ebff.EbffApplication[0;39m - [34mStarted EbffApplication in 7.769 seconds (JVM running for 12.077)[0;39m
+                
+2020-04-05 22:33:20 [main] [34mINFO [0;39m [36mcn.kj.ebff.EbffApplication[0;39m - [34mStarting EbffApplication on DESKTOP-9AJN4VM with PID 19976 (F:\IDEA\ebff\target\classes started by 25414 in F:\IDEA\ebff)[0;39m
+                
+2020-04-05 22:33:20 [main] [34mINFO [0;39m [36mcn.kj.ebff.EbffApplication[0;39m - [34mNo active profile set, falling back to default profiles: default[0;39m
+                
+2020-04-05 22:33:23 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'shiroConfig' of type [cn.kj.ebff.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$59b4bdfe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:23 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'mybatis-tk.mybatis.mapper.autoconfigure.MybatisProperties' of type [tk.mybatis.mapper.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:23 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration' of type [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$$EnhancerBySpringCGLIB$$752ab901] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:23 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:23 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:23 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:23 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:23 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:23 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:24 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:24 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userMapper' of type [com.sun.proxy.$Proxy76] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:24 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userServiceImpl' of type [cn.kj.ebff.service.Impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:24 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userWithRoleMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:24 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userWithRoleMapper' of type [com.sun.proxy.$Proxy77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:24 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userWithRoleServiceImpl' of type [cn.kj.ebff.service.Impl.UserWithRoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:24 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'roleWithResourceMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:24 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'roleWithResourceMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:24 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'roleWithResourceServiceImpl' of type [cn.kj.ebff.service.Impl.RoleWithResourceServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:24 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'customRealm' of type [cn.kj.ebff.shiro.LoginRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:26 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:33:26 [main] [34mINFO [0;39m [36mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m - [34mTomcat initialized with port(s): 8888 (http)[0;39m
+                
+2020-04-05 22:33:26 [main] [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol[0;39m - [34mInitializing ProtocolHandler ["http-nio-8888"][0;39m
+                
+2020-04-05 22:33:26 [main] [34mINFO [0;39m [36morg.apache.catalina.core.StandardService[0;39m - [34mStarting service [Tomcat][0;39m
+                
+2020-04-05 22:33:26 [main] [34mINFO [0;39m [36morg.apache.catalina.core.StandardEngine[0;39m - [34mStarting Servlet engine: [Apache Tomcat/9.0.33][0;39m
+                
+2020-04-05 22:33:27 [main] [34mINFO [0;39m [36mo.a.c.core.ContainerBase.[Tomcat].[localhost].[/][0;39m - [34mInitializing Spring embedded WebApplicationContext[0;39m
+                
+2020-04-05 22:33:27 [main] [34mINFO [0;39m [36morg.springframework.web.context.ContextLoader[0;39m - [34mRoot WebApplicationContext: initialization completed in 6008 ms[0;39m
+                
+2020-04-05 22:33:27 [main] [34mINFO [0;39m [36mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m - [34mInitializing ExecutorService 'applicationTaskExecutor'[0;39m
+                
+2020-04-05 22:33:27 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.[0;39m
+                
+2020-04-05 22:33:27 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.[0;39m
+                
+2020-04-05 22:33:27 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear tk.mybatis.mapper.version.VersionUtil CACHE cache.[0;39m
+                
+2020-04-05 22:33:27 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear EntityHelper entityTableMap cache.[0;39m
+                
+2020-04-05 22:33:27 [main] [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol[0;39m - [34mStarting ProtocolHandler ["http-nio-8888"][0;39m
+                
+2020-04-05 22:33:27 [main] [34mINFO [0;39m [36mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m - [34mTomcat started on port(s): 8888 (http) with context path ''[0;39m
+                
+2020-04-05 22:33:27 [main] [34mINFO [0;39m [36mcn.kj.ebff.EbffApplication[0;39m - [34mStarted EbffApplication in 8.488 seconds (JVM running for 13.122)[0;39m
+                
+2020-04-05 22:40:06 [main] [34mINFO [0;39m [36mcn.kj.ebff.EbffApplication[0;39m - [34mStarting EbffApplication on DESKTOP-9AJN4VM with PID 18292 (F:\IDEA\ebff\target\classes started by 25414 in F:\IDEA\ebff)[0;39m
+                
+2020-04-05 22:40:06 [main] [34mINFO [0;39m [36mcn.kj.ebff.EbffApplication[0;39m - [34mNo active profile set, falling back to default profiles: default[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'shiroConfig' of type [cn.kj.ebff.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$196a4a6e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'mybatis-tk.mybatis.mapper.autoconfigure.MybatisProperties' of type [tk.mybatis.mapper.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration' of type [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$$EnhancerBySpringCGLIB$$34e04571] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userMapper' of type [com.sun.proxy.$Proxy76] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userServiceImpl' of type [cn.kj.ebff.service.Impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userWithRoleMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userWithRoleMapper' of type [com.sun.proxy.$Proxy77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userWithRoleServiceImpl' of type [cn.kj.ebff.service.Impl.UserWithRoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'roleWithResourceMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'roleWithResourceMapper' of type [com.sun.proxy.$Proxy78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'roleWithResourceServiceImpl' of type [cn.kj.ebff.service.Impl.RoleWithResourceServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:08 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'customRealm' of type [cn.kj.ebff.shiro.LoginRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:11 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:40:11 [main] [34mINFO [0;39m [36mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m - [34mTomcat initialized with port(s): 8888 (http)[0;39m
+                
+2020-04-05 22:40:11 [main] [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol[0;39m - [34mInitializing ProtocolHandler ["http-nio-8888"][0;39m
+                
+2020-04-05 22:40:11 [main] [34mINFO [0;39m [36morg.apache.catalina.core.StandardService[0;39m - [34mStarting service [Tomcat][0;39m
+                
+2020-04-05 22:40:11 [main] [34mINFO [0;39m [36morg.apache.catalina.core.StandardEngine[0;39m - [34mStarting Servlet engine: [Apache Tomcat/9.0.33][0;39m
+                
+2020-04-05 22:40:11 [main] [34mINFO [0;39m [36mo.a.c.core.ContainerBase.[Tomcat].[localhost].[/][0;39m - [34mInitializing Spring embedded WebApplicationContext[0;39m
+                
+2020-04-05 22:40:11 [main] [34mINFO [0;39m [36morg.springframework.web.context.ContextLoader[0;39m - [34mRoot WebApplicationContext: initialization completed in 5398 ms[0;39m
+                
+2020-04-05 22:40:12 [main] [34mINFO [0;39m [36mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m - [34mInitializing ExecutorService 'applicationTaskExecutor'[0;39m
+                
+2020-04-05 22:40:12 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.[0;39m
+                
+2020-04-05 22:40:12 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.[0;39m
+                
+2020-04-05 22:40:12 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear tk.mybatis.mapper.version.VersionUtil CACHE cache.[0;39m
+                
+2020-04-05 22:40:12 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear EntityHelper entityTableMap cache.[0;39m
+                
+2020-04-05 22:40:12 [main] [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol[0;39m - [34mStarting ProtocolHandler ["http-nio-8888"][0;39m
+                
+2020-04-05 22:40:12 [main] [34mINFO [0;39m [36mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m - [34mTomcat started on port(s): 8888 (http) with context path ''[0;39m
+                
+2020-04-05 22:40:12 [main] [34mINFO [0;39m [36mcn.kj.ebff.EbffApplication[0;39m - [34mStarted EbffApplication in 7.504 seconds (JVM running for 11.938)[0;39m
+                
+2020-04-05 22:44:56 [main] [34mINFO [0;39m [36mcn.kj.ebff.EbffApplication[0;39m - [34mStarting EbffApplication on DESKTOP-9AJN4VM with PID 22224 (F:\IDEA\ebff\target\classes started by 25414 in F:\IDEA\ebff)[0;39m
+                
+2020-04-05 22:44:56 [main] [34mINFO [0;39m [36mcn.kj.ebff.EbffApplication[0;39m - [34mNo active profile set, falling back to default profiles: default[0;39m
+                
+2020-04-05 22:44:58 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'shiroConfig' of type [cn.kj.ebff.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$2ca62f64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:44:58 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'mybatis-tk.mybatis.mapper.autoconfigure.MybatisProperties' of type [tk.mybatis.mapper.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:44:58 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration' of type [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$$EnhancerBySpringCGLIB$$481c2a67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:44:58 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:44:58 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:44:58 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:44:58 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:44:59 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:44:59 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:44:59 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:44:59 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userMapper' of type [com.sun.proxy.$Proxy71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:44:59 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userServiceImpl' of type [cn.kj.ebff.service.Impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:44:59 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userWithRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:44:59 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userWithRoleMapper' of type [com.sun.proxy.$Proxy73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:44:59 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userWithRoleServiceImpl' of type [cn.kj.ebff.service.Impl.UserWithRoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:44:59 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'roleWithResourceMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:44:59 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'roleWithResourceMapper' of type [com.sun.proxy.$Proxy74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:44:59 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'roleWithResourceServiceImpl' of type [cn.kj.ebff.service.Impl.RoleWithResourceServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:44:59 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'customRealm' of type [cn.kj.ebff.shiro.LoginRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:45:02 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+                
+2020-04-05 22:45:02 [main] [34mINFO [0;39m [36mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m - [34mTomcat initialized with port(s): 8888 (http)[0;39m
+                
+2020-04-05 22:45:02 [main] [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol[0;39m - [34mInitializing ProtocolHandler ["http-nio-8888"][0;39m
+                
+2020-04-05 22:45:02 [main] [34mINFO [0;39m [36morg.apache.catalina.core.StandardService[0;39m - [34mStarting service [Tomcat][0;39m
+                
+2020-04-05 22:45:02 [main] [34mINFO [0;39m [36morg.apache.catalina.core.StandardEngine[0;39m - [34mStarting Servlet engine: [Apache Tomcat/9.0.33][0;39m
+                
+2020-04-05 22:45:02 [main] [34mINFO [0;39m [36mo.a.c.core.ContainerBase.[Tomcat].[localhost].[/][0;39m - [34mInitializing Spring embedded WebApplicationContext[0;39m
+                
+2020-04-05 22:45:02 [main] [34mINFO [0;39m [36morg.springframework.web.context.ContextLoader[0;39m - [34mRoot WebApplicationContext: initialization completed in 6534 ms[0;39m
+                
+2020-04-05 22:45:03 [main] [34mINFO [0;39m [36mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m - [34mInitializing ExecutorService 'applicationTaskExecutor'[0;39m
+                
+2020-04-05 22:45:03 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.[0;39m
+                
+2020-04-05 22:45:03 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.[0;39m
+                
+2020-04-05 22:45:03 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear tk.mybatis.mapper.version.VersionUtil CACHE cache.[0;39m
+                
+2020-04-05 22:45:03 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear EntityHelper entityTableMap cache.[0;39m
+                
+2020-04-05 22:45:03 [main] [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol[0;39m - [34mStarting ProtocolHandler ["http-nio-8888"][0;39m
+                
+2020-04-05 22:45:04 [main] [34mINFO [0;39m [36mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m - [34mTomcat started on port(s): 8888 (http) with context path ''[0;39m
+                
+2020-04-05 22:45:04 [main] [34mINFO [0;39m [36mcn.kj.ebff.EbffApplication[0;39m - [34mStarted EbffApplication in 9.569 seconds (JVM running for 17.134)[0;39m
+                
+2020-04-05 22:50:17 [main] [34mINFO [0;39m [36mcn.kj.ebff.EbffApplication[0;39m - [34mStarting EbffApplication on DESKTOP-9AJN4VM with PID 27528 (F:\IDEA\ebff\target\classes started by 25414 in F:\IDEA\ebff)[0;39m 
+2020-04-05 22:50:17 [main] [34mINFO [0;39m [36mcn.kj.ebff.EbffApplication[0;39m - [34mNo active profile set, falling back to default profiles: default[0;39m 
+2020-04-05 22:50:19 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'shiroConfig' of type [cn.kj.ebff.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$a10fa3a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:50:19 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'mybatis-tk.mybatis.mapper.autoconfigure.MybatisProperties' of type [tk.mybatis.mapper.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:50:19 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration' of type [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$$EnhancerBySpringCGLIB$$bc859ea7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:50:19 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:50:19 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:50:19 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:50:19 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:50:20 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:50:20 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:50:20 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:50:20 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userMapper' of type [com.sun.proxy.$Proxy71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:50:20 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userServiceImpl' of type [cn.kj.ebff.service.Impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+2020-04-05 22:50:20 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userWithRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:50:20 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userWithRoleMapper' of type [com.sun.proxy.$Proxy73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:50:20 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userWithRoleServiceImpl' of type [cn.kj.ebff.service.Impl.UserWithRoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+2020-04-05 22:50:20 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'roleWithResourceMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:50:20 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'roleWithResourceMapper' of type [com.sun.proxy.$Proxy74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:50:20 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'roleWithResourceServiceImpl' of type [cn.kj.ebff.service.Impl.RoleWithResourceServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+2020-04-05 22:50:20 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'customRealm' of type [cn.kj.ebff.shiro.LoginRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:50:22 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:50:22 [main] [34mINFO [0;39m [36mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m - [34mTomcat initialized with port(s): 8888 (http)[0;39m 
+2020-04-05 22:50:22 [main] [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol[0;39m - [34mInitializing ProtocolHandler ["http-nio-8888"][0;39m 
+2020-04-05 22:50:22 [main] [34mINFO [0;39m [36morg.apache.catalina.core.StandardService[0;39m - [34mStarting service [Tomcat][0;39m 
+2020-04-05 22:50:22 [main] [34mINFO [0;39m [36morg.apache.catalina.core.StandardEngine[0;39m - [34mStarting Servlet engine: [Apache Tomcat/9.0.33][0;39m 
+2020-04-05 22:50:22 [main] [34mINFO [0;39m [36mo.a.c.core.ContainerBase.[Tomcat].[localhost].[/][0;39m - [34mInitializing Spring embedded WebApplicationContext[0;39m 
+2020-04-05 22:50:22 [main] [34mINFO [0;39m [36morg.springframework.web.context.ContextLoader[0;39m - [34mRoot WebApplicationContext: initialization completed in 4872 ms[0;39m 
+2020-04-05 22:50:23 [main] [34mINFO [0;39m [36mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m - [34mInitializing ExecutorService 'applicationTaskExecutor'[0;39m 
+2020-04-05 22:50:23 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.[0;39m 
+2020-04-05 22:50:23 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.[0;39m 
+2020-04-05 22:50:23 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear tk.mybatis.mapper.version.VersionUtil CACHE cache.[0;39m 
+2020-04-05 22:50:23 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear EntityHelper entityTableMap cache.[0;39m 
+2020-04-05 22:50:23 [main] [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol[0;39m - [34mStarting ProtocolHandler ["http-nio-8888"][0;39m 
+2020-04-05 22:50:23 [main] [34mINFO [0;39m [36mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m - [34mTomcat started on port(s): 8888 (http) with context path ''[0;39m 
+2020-04-05 22:50:23 [main] [34mINFO [0;39m [36mcn.kj.ebff.EbffApplication[0;39m - [34mStarted EbffApplication in 6.928 seconds (JVM running for 10.992)[0;39m 
+2020-04-05 22:52:10 [main] [34mINFO [0;39m [36mcn.kj.ebff.EbffApplication[0;39m - [34mStarting EbffApplication on DESKTOP-9AJN4VM with PID 29700 (F:\IDEA\ebff\target\classes started by 25414 in F:\IDEA\ebff)[0;39m 
+2020-04-05 22:52:10 [main] [34mINFO [0;39m [36mcn.kj.ebff.EbffApplication[0;39m - [34mNo active profile set, falling back to default profiles: default[0;39m 
+2020-04-05 22:52:11 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'shiroConfig' of type [cn.kj.ebff.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$228ad4bb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:52:11 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'mybatis-tk.mybatis.mapper.autoconfigure.MybatisProperties' of type [tk.mybatis.mapper.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:52:11 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration' of type [tk.mybatis.mapper.autoconfigure.MapperAutoConfiguration$$EnhancerBySpringCGLIB$$3e00cfbe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:52:11 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:52:11 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:52:12 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:52:12 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:52:12 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:52:12 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:52:12 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:52:12 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userMapper' of type [com.sun.proxy.$Proxy71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:52:12 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userServiceImpl' of type [cn.kj.ebff.service.Impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+2020-04-05 22:52:12 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userWithRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:52:12 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userWithRoleMapper' of type [com.sun.proxy.$Proxy73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:52:12 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'userWithRoleServiceImpl' of type [cn.kj.ebff.service.Impl.UserWithRoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+2020-04-05 22:52:12 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'roleWithResourceMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:52:12 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'roleWithResourceMapper' of type [com.sun.proxy.$Proxy74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:52:12 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'roleWithResourceServiceImpl' of type [cn.kj.ebff.service.Impl.RoleWithResourceServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m
+2020-04-05 22:52:12 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'customRealm' of type [cn.kj.ebff.shiro.LoginRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:52:14 [main] [34mINFO [0;39m [36mo.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker[0;39m - [34mBean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)[0;39m 
+2020-04-05 22:52:14 [main] [34mINFO [0;39m [36mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m - [34mTomcat initialized with port(s): 8888 (http)[0;39m 
+2020-04-05 22:52:14 [main] [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol[0;39m - [34mInitializing ProtocolHandler ["http-nio-8888"][0;39m 
+2020-04-05 22:52:14 [main] [34mINFO [0;39m [36morg.apache.catalina.core.StandardService[0;39m - [34mStarting service [Tomcat][0;39m 
+2020-04-05 22:52:14 [main] [34mINFO [0;39m [36morg.apache.catalina.core.StandardEngine[0;39m - [34mStarting Servlet engine: [Apache Tomcat/9.0.33][0;39m 
+2020-04-05 22:52:15 [main] [34mINFO [0;39m [36mo.a.c.core.ContainerBase.[Tomcat].[localhost].[/][0;39m - [34mInitializing Spring embedded WebApplicationContext[0;39m 
+2020-04-05 22:52:15 [main] [34mINFO [0;39m [36morg.springframework.web.context.ContextLoader[0;39m - [34mRoot WebApplicationContext: initialization completed in 4662 ms[0;39m 
+2020-04-05 22:52:15 [main] [34mINFO [0;39m [36mo.s.scheduling.concurrent.ThreadPoolTaskExecutor[0;39m - [34mInitializing ExecutorService 'applicationTaskExecutor'[0;39m 
+2020-04-05 22:52:15 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.[0;39m 
+2020-04-05 22:52:15 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.[0;39m 
+2020-04-05 22:52:15 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear tk.mybatis.mapper.version.VersionUtil CACHE cache.[0;39m 
+2020-04-05 22:52:15 [main] [34mINFO [0;39m [36mt.mybatis.mapper.autoconfigure.MapperCacheDisabler[0;39m - [34mClear EntityHelper entityTableMap cache.[0;39m 
+2020-04-05 22:52:15 [main] [34mINFO [0;39m [36morg.apache.coyote.http11.Http11NioProtocol[0;39m - [34mStarting ProtocolHandler ["http-nio-8888"][0;39m 
+2020-04-05 22:52:15 [main] [34mINFO [0;39m [36mo.s.boot.web.embedded.tomcat.TomcatWebServer[0;39m - [34mTomcat started on port(s): 8888 (http) with context path ''[0;39m 
+2020-04-05 22:52:15 [main] [34mINFO [0;39m [36mcn.kj.ebff.EbffApplication[0;39m - [34mStarted EbffApplication in 7.087 seconds (JVM running for 11.569)[0;39m 
